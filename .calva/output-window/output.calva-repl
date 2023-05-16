@@ -1,0 +1,916 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:58593 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉desafio-clojure.core꞉>  ; Use `alt+enter` to evaluate
+clj꞉desafio-clojure.core꞉> 
+; Jack-in done.
+clj꞉desafio-clojure.core꞉> 
+#object[clojure.lang.Var$Unbound 0x4ed7aad1 "Unbound: #'user/mined-board"]
+nil
+clj꞉user꞉> 
+#function[user/place-mines]
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+#function[clojure.core/repeat]
+clj꞉user꞉> 
+#<Ref@674e3ad8: []>
+clj꞉user꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\desafio_clojure\core.clj:1:7984).
+; Unable to resolve symbol: selected in this context
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\desafio_clojure\core.clj:29:29).
+; Unable to resolve symbol: x in this context
+clj꞉user꞉> 
+#function[clojure.core/repeatedly]
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x4ed7aad1 "Unbound: #'user/mined-board"]
+nil
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x4ed7aad1 "Unbound: #'user/mined-board"]
+nil
+clj꞉user꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\desafio_clojure\core.clj:37:1).
+; Unable to resolve symbol: main in this context
+clj꞉user꞉> 
+#'user/main
+clj꞉user꞉> 
+#'user/main
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+#'user/main
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+#'user/board
+clj꞉user꞉> 
+#'user/main
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/place-mines (form-init2801683678201812897.clj:26).
+; clojure.lang.Ref cannot be cast to clojure.lang.IAtom
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/place-mines (form-init2801683678201812897.clj:26).
+; clojure.lang.Ref cannot be cast to clojure.lang.IAtom
+clj꞉user꞉> 
+; Execution error (ClassCastException) at user/place-mines (form-init2801683678201812897.clj:26).
+; clojure.lang.Ref cannot be cast to clojure.lang.IAtom
+clj꞉user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:58763 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉desafio-clojure.core꞉> 
+clj꞉desafio-clojure.core꞉> 
+; Jack-in done.
+clj꞉desafio-clojure.core꞉> 
+; Execution error (IllegalStateException) at user/eval5996 (form-init4148458454449089630.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval5998 (form-init4148458454449089630.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at nrepl.middleware.interruptible-eval/evaluate$fn$fn (interruptible_eval.clj:87).
+; Attempting to call unbound fn: #'user/place-mines
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x399be4b8 "Unbound: #'user/board"]
+clj꞉user꞉> 
+#'user/main
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x399be4b8 "Unbound: #'user/board"]
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x399be4b8 "Unbound: #'user/board"]
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x399be4b8 "Unbound: #'user/board"]
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x399be4b8 "Unbound: #'user/board"]
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x278ba8a "Unbound: #'user/selected-coords"]
+clj꞉user꞉> 
+#function[clojure.core/vec]
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x399be4b8 "Unbound: #'user/board"]
+clj꞉user꞉> 
+#'user/main
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/main$random-coord (form-init4148458454449089630.clj:18).
+; contains? not supported on type: clojure.lang.LazySeq
+clj꞉user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:58835 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉desafio-clojure.core꞉> 
+clj꞉desafio-clojure.core꞉> 
+; Jack-in done.
+clj꞉desafio-clojure.core꞉> 
+; Execution error (IllegalStateException) at user/eval5996 (form-init8731724802510277475.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval5998 (form-init8731724802510277475.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval6000 (form-init8731724802510277475.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval6002 (form-init8731724802510277475.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval6004 (form-init8731724802510277475.clj:37).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval7754 (form-init8731724802510277475.clj:38).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+; Execution error (IllegalStateException) at user/eval7756 (form-init8731724802510277475.clj:38).
+; Attempting to call unbound fn: #'user/main
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x6c9a8eb1 "Unbound: #'user/board"]
+nil
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x6c9a8eb1 "Unbound: #'user/board"]
+nil
+clj꞉user꞉> 
+#'user/board
+clj꞉user꞉> 
+#'user/selected-coords
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+nil
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+nil
+clj꞉user꞉> 
+#object[clojure.lang.Var$Unbound 0x50e710ca "Unbound: #'user/place-mines"]
+nil
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+#'user/board
+clj꞉user꞉> 
+#'user/selected-coords
+clj꞉user꞉> 
+#'user/random-coord
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+#function[user/place-mines]
+nil
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8731724802510277475.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8731724802510277475.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:58920 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉desafio-clojure.core꞉> 
+clj꞉desafio-clojure.core꞉> 
+#'user/board
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+#'user/selected-coords
+clj꞉user꞉> 
+#'user/random-coord
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8913248545478025466.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8913248545478025466.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+[]
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8913248545478025466.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+; Error printing return value (StackOverflowError) at clojure.lang.RT/assoc (RT.java:827).
+; null
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+; Error printing return value (StackOverflowError) at clojure.lang.RT/boundedLength (RT.java:1790).
+; null
+clj꞉user꞉> 
+#'user/selected-coords
+clj꞉user꞉> 
+#<Atom@597f345d: []>
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8913248545478025466.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+#function[user/place-mines]
+clj꞉user꞉> 
+; Execution error (IllegalArgumentException) at user/place-mines$fn (form-init8913248545478025466.clj:27).
+; Key must be integer
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+clj꞉user꞉> 
+; Error printing return value (StackOverflowError) at clojure.lang.RT/assoc (RT.java:827).
+; null
+clj꞉user꞉> 
+#'user/place-mines
+clj꞉user꞉> 
+; Error printing return value (StackOverflowError) at clojure.lang.RT/assoc (RT.java:827).
+; null
+clj꞉user꞉> 
+; Error printing return value (StackOverflowError) at clojure.lang.PersistentArrayMap/assoc (PersistentArrayMap.java:30).
+; null
+clj꞉user꞉> 
+; Error printing return value (StackOverflowError) at clojure.lang.PersistentArrayMap/assoc (PersistentArrayMap.java:30).
+; null
+clj꞉user꞉> 
+; nREPL connection failed: Error: read ECONNRESET
+; Failed connecting.
+; nREPL Connection was closed
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+; Starting Jack-in Terminal: pushd c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.0.0"] -- update-in :plugins conj [cider/cider-nrepl,"0.28.5"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
+; Using host:port 127.0.0.1:59353 ...
+; Hooking up nREPL sessions ...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉desafio-clojure.core꞉> 
+clj꞉desafio-clojure.core꞉> 
+; Jack-in done.
+clj꞉desafio-clojure.core꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\game.clj:58:1).
+; No such namespace: disp
+clj꞉minesweeper.game꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\game.clj:58:1).
+; No such namespace: disp
+clj꞉minesweeper.game꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\game.clj:58:1).
+; No such namespace: disp
+clj꞉minesweeper.game꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:80:8).
+; Unable to resolve symbol: to-coords in this context
+clj꞉minesweeper.board꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:75:18).
+; Unable to resolve symbol: to-coords in this context
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/to-coords
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/neighbour-cells
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/warnings-freq
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/random-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-warnings
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/explore-field
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/handle-flag
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/game-started?
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/game-lost?
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/game-won?
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.dispatch꞉> 
+#'minesweeper.dispatch/listeners
+clj꞉minesweeper.dispatch꞉> 
+#'minesweeper.dispatch/dispatch
+clj꞉minesweeper.dispatch꞉> 
+#'minesweeper.dispatch/fire
+clj꞉minesweeper.dispatch꞉> 
+#'minesweeper.dispatch/register
+clj꞉minesweeper.dispatch꞉> 
+nil
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/levels
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/level
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/board
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/new-game
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/start-game
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/explore
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/explore-field
+clj꞉minesweeper.game꞉> 
+#'minesweeper.game/handle-flag
+clj꞉minesweeper.game꞉> 
+{:explore-field (#'minesweeper.game/explore-field)}
+clj꞉minesweeper.game꞉> 
+{:explore-field (#'minesweeper.game/explore-field), :handle-flag (#'minesweeper.game/handle-flag)}
+clj꞉minesweeper.game꞉> 
+{:explore-field (#'minesweeper.game/explore-field),
+ :handle-flag (#'minesweeper.game/handle-flag),
+ :new-game (#'minesweeper.game/new-game)}
+clj꞉minesweeper.game꞉> 
+{:explore-field (#'minesweeper.game/explore-field),
+ :handle-flag (#'minesweeper.game/handle-flag),
+ :new-game (#'minesweeper.game/new-game #'minesweeper.game/new-game)}
+clj꞉minesweeper.game꞉> 
+{:explore-field (#'minesweeper.game/explore-field),
+ :handle-flag (#'minesweeper.game/handle-flag),
+ :new-game (#'minesweeper.game/new-game #'minesweeper.game/new-game #'minesweeper.game/new-game)}
+clj꞉minesweeper.game꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:1:7984).
+; Unable to resolve symbol: empty-board in this context
+clj꞉user꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:3:1).
+; Unable to resolve symbol: empty-board in this context
+clj꞉user꞉> 
+#'user/empty-board
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0]]
+nil
+clj꞉user꞉> 
+[[0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0] [0 0 0 0 0 0 0 0]]
+nil
+clj꞉user꞉> 
+#function[minesweeper.board/empty-board]
+nil
+clj꞉minesweeper.board꞉> 
+#function[clojure.pprint/pprint]
+clj꞉minesweeper.board꞉> 
+#function[minesweeper.board/empty-board]
+nil
+clj꞉minesweeper.board꞉> 
+#function[minesweeper.board/empty-board]
+nil
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+[[0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]]
+nil
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:9:26).
+; No such var: set/shuffle
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/filled-board
+clj꞉minesweeper.board꞉> 
+[[:mine 0 :mine 0 0 0 0 0]
+ [0 :mine 0 :mine 0 0 0 0]
+ [0 0 0 :mine 0 0 :mine 0]
+ [0 0 0 0 0 0 0 0]
+ [:mine 0 0 :mine 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 :mine 0 0 :mine 0 0]]
+nil
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/filled-board
+clj꞉minesweeper.board꞉> 
+[[0 0 0 :mine 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [:mine 0 0 0 :mine :mine 0 0]
+ [0 0 0 0 0 0 0 0]
+ [:mine 0 0 0 :mine :mine 0 :mine]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 :mine]
+ [0 0 0 :mine 0 0 0 0]]
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/count-adjacent-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/board-with-counts
+clj꞉minesweeper.board꞉> 
+(0
+ 0
+ 1
+ :mine
+ 1
+ 0
+ 0
+ 0
+ 1
+ 1
+ 1
+ 2
+ 3
+ 2
+ 1
+ 0
+ :mine
+ 1
+ 0
+ 1
+ :mine
+ :mine
+ 1
+ 0
+ 2
+ 2
+ 0
+ 2
+ 4
+ 4
+ 3
+ 1
+ :mine
+ 1
+ 0
+ 1
+ :mine
+ :mine
+ 2
+ :mine
+ 1
+ 1
+ 0
+ 1
+ 2
+ 2
+ 3
+ 2
+ 0
+ 0
+ 1
+ 1
+ 1
+ 0
+ 1
+ :mine
+ 0
+ 0
+ 1
+ :mine
+ 1
+ 0
+ 1
+ 1)
+nil
+clj꞉minesweeper.board꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:51:1).
+; Unable to resolve symbol: adjacents-count in this context
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/filled-board
+clj꞉minesweeper.board꞉> 
+[[0 0 :mine :mine 0 0 0 0]
+ [0 :mine 0 0 0 0 :mine 0]
+ [0 0 :mine 0 0 0 0 :mine]
+ [0 0 0 0 :mine 0 0 0]
+ [0 0 0 0 0 0 0 :mine]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 :mine 0 0]
+ [:mine 0 0 0 0 0 0 0]]
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/count-adjacent-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/adjacents-count
+clj꞉minesweeper.board꞉> 
+(1
+ 2
+ :mine
+ :mine
+ 1
+ 1
+ 1
+ 1
+ 1
+ :mine
+ 4
+ 3
+ 1
+ 1
+ :mine
+ 2
+ 1
+ 2
+ :mine
+ 2
+ 1
+ 2
+ 2
+ :mine
+ 0
+ 1
+ 1
+ 2
+ :mine
+ 1
+ 2
+ 2
+ 0
+ 0
+ 0
+ 1
+ 1
+ 1
+ 1
+ :mine
+ 0
+ 0
+ 0
+ 0
+ 1
+ 1
+ 2
+ 1
+ 1
+ 1
+ 0
+ 0
+ 1
+ :mine
+ 1
+ 0
+ :mine
+ 1
+ 0
+ 0
+ 1
+ 1
+ 1
+ 0)
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/final-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/board-to-play
+clj꞉minesweeper.board꞉> 
+[[1 2 :mine :mine 1 1 1 1]
+ [1 :mine 4 3 1 1 :mine 2]
+ [1 2 :mine 2 1 2 2 :mine]
+ [0 1 1 2 :mine 1 2 2]
+ [0 0 0 1 1 1 1 :mine]
+ [0 0 0 0 1 1 2 1]
+ [1 1 0 0 1 :mine 1 0]
+ [:mine 1 0 0 1 1 1 0]]
+nil
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/filled-board
+clj꞉minesweeper.board꞉> 
+[[:M 0 0 0 :M :M 0 0]
+ [:M 0 0 0 0 :M 0 :M]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 :M]
+ [0 0 :M 0 0 0 0 0]
+ [0 0 0 0 0 :M :M 0]
+ [0 0 0 0 0 0 0 0]]
+nil
+clj꞉minesweeper.board꞉> 
+[[:M 0 0 0 :M :M 0 0]
+ [:M 0 0 0 0 :M 0 :M]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 0]
+ [0 0 0 0 0 0 0 :M]
+ [0 0 :M 0 0 0 0 0]
+ [0 0 0 0 0 :M :M 0]
+ [0 0 0 0 0 0 0 0]]
+nil
+clj꞉minesweeper.board꞉> 
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/empty-board
+clj꞉minesweeper.board꞉> 
+[[:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :E :E :E :E]]
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/place-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/filled-board
+clj꞉minesweeper.board꞉> 
+[[:E :E :E :M :E :E :E :E]
+ [:E :M :E :M :E :E :E :E]
+ [:E :M :E :M :E :E :E :E]
+ [:E :E :E :E :E :M :E :E]
+ [:E :E :E :E :E :M :E :E]
+ [:E :E :E :E :E :E :E :E]
+ [:E :E :E :E :M :E :E :E]
+ [:M :E :E :E :E :E :M :E]]
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/count-adjacent-mines
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/adjacents-count
+clj꞉minesweeper.board꞉> 
+(1
+ 1
+ 3
+ :M
+ 2
+ 0
+ 0
+ 0
+ 2
+ :M
+ 5
+ :M
+ 3
+ 0
+ 0
+ 0
+ 2
+ :M
+ 4
+ :M
+ 3
+ 1
+ 1
+ 0
+ 1
+ 1
+ 2
+ 1
+ 3
+ :M
+ 2
+ 0
+ 0
+ 0
+ 0
+ 0
+ 2
+ :M
+ 2
+ 0
+ 0
+ 0
+ 0
+ 1
+ 2
+ 2
+ 1
+ 0
+ 1
+ 1
+ 0
+ 1
+ :M
+ 2
+ 1
+ 1
+ :M
+ 1
+ 0
+ 1
+ 1
+ 2
+ :M
+ 1)
+nil
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/final-board
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/board-to-play
+clj꞉minesweeper.board꞉> 
+[[1 1 3 :M 2 0 0 0]
+ [2 :M 5 :M 3 0 0 0]
+ [2 :M 4 :M 3 1 1 0]
+ [1 1 2 1 3 :M 2 0]
+ [0 0 0 0 2 :M 2 0]
+ [0 0 0 1 2 2 1 0]
+ [1 1 0 1 :M 2 1 1]
+ [:M 1 0 1 1 2 :M 1]]
+nil
+clj꞉minesweeper.board꞉> 
+; Syntax error compiling at (c:\Users\felip\OneDrive\Documentos\Desafio CSDbr\desafio-clojure\src\minesweeper\board.clj:57:1).
+; Unable to resolve symbol: undisclosed-board in this context
+clj꞉minesweeper.board꞉> 
+#'minesweeper.board/undisclosed-board
+clj꞉minesweeper.board꞉> 
+[[:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]
+ [:H :H :H :H :H :H :H :H]]
+nil
+clj꞉minesweeper.board꞉> 
+; Execution error (ArityException) at minesweeper.game/eval8186 (form-init4902920008280606056.clj:9).
+; Wrong number of args (0) passed to: minesweeper.game/start-game
+clj꞉minesweeper.game꞉> 
